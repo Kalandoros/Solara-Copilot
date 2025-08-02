@@ -32,4 +32,4 @@ pages/
 
 ## License
 
-BSD3
+MIT
