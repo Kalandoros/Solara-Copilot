@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 7860
 
 # Run the Solara app
-CMD ["solara", "run", "main.py", "--host", "0.0.0.0", "--port", "7860"]
+CMD ["solara", "run", "sol.py", "--host=0.0.0.0", "--production"]
