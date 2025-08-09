@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose the port Solara will serve on
-EXPOSE 7860
+EXPOSE 8765
 
 # Run the Solara app
 CMD ["solara", "run", "main.py", "--host=0.0.0.0", "--production"]
